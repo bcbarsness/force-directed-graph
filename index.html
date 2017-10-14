@@ -34,7 +34,7 @@ var svg = d3.select("body").append("svg")
 	//d3.select("body").transition()
     //.style("background-color", "black");
 
-d3.json("miserables1.json", function(error, graph) {
+d3.json("nodes.json", function(error, graph) {
   if (error) throw error;
 
   force

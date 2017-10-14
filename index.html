@@ -55,7 +55,7 @@ d3.json("nodes.json", function(error, graph) {
       //.attr("r", 20)
 	  .attr("r",  function(d) { return d.radius; })
       .style("fill", function(d) { return d.group; })
-      .style("opacity","0.95")
+      .style("opacity","0.9")
       .call(force.drag);
 
   var myText = svg.selectAll(".mytext")
@@ -70,7 +70,7 @@ d3.json("nodes.json", function(error, graph) {
   myText.style("fill", "#0000ff")
 	 .attr("width", "10")
    .attr("height", "10")
-   .style("font-size", "10px" )
+   .style("font-size", "12px" )
    .text(function(d) { return d.name; });
 
   force.on("tick", function() {

@@ -1,0 +1,36 @@
+{
+  "nodes":[
+    {"radius":18,"name":"OPLAN","group":"gray"},
+    {"radius":14,"name":"Cyber","group":"green"},
+    {"radius":14,"name":"Air","group":"green"},
+    {"radius":14,"name":"Land","group":"yellow"},
+    {"radius":10,"name":"A1","group":"yellow"},
+    {"radius":10,"name":"B1","group":"green"},
+    {"radius":10,"name":"B2","group":"red"},
+    {"radius":10,"name":"B3","group":"green"},
+    {"radius":10,"name":"C1","group":"green"},
+    {"radius":10,"name":"C2","group":"green"},
+    {"radius":10,"name":"C3","group":"red"},
+    {"radius":10,"name":"D1","group":"red"},
+    {"radius":10,"name":"D2","group":"green"},
+    {"radius":10,"name":"D3","group":"red"}
+  ],
+  "links":[
+    {"source":0,"target":1,"value":10},
+    {"source":0,"target":2,"value":10},
+    {"source":0,"target":2,"value":10},
+    {"source":0,"target":3,"value":10},
+    {"source":3,"target":4,"value":5},
+    {"source":4,"target":5,"value":1},
+    {"source":4,"target":6,"value":1},
+    {"source":4,"target":7,"value":1},
+    {"source":6,"target":8,"value":1},
+    {"source":6,"target":9,"value":1},
+    {"source":6,"target":10,"value":1},
+    {"source":10,"target":11,"value":1},
+    {"source":10,"target":12,"value":1},
+    {"source":10,"target":13,"value":1}
+
+
+  ]
+}
